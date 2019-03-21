@@ -1,0 +1,9 @@
+{
+"TOTAL_MEMORY": 268435456,
+"dataUrl": "vca-web.data.unityweb",
+"asmCodeUrl": "vca-web.asm.code.unityweb",
+"asmMemoryUrl": "vca-web.asm.memory.unityweb",
+"asmFrameworkUrl": "vca-web.asm.framework.unityweb",
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}
