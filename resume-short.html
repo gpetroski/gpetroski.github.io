@@ -1,0 +1,464 @@
+<!doctype html>
+<html>
+	<head>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+	
+	<title>Gregory W. Petroski</title>
+
+	<style>
+	body {
+	background: #fff;
+	font: 16px 'Open Sans', Helvetica, Arial, sans-serif;
+	line-height: 1.4;
+	margin: 0 0;
+	margin-bottom: 100px;
+}
+em {
+	color: #999;
+}
+p {
+	line-height: 1.6;
+	font-size: 90%;
+}
+
+a {
+	color: #2C85B1;
+	text-decoration: none;
+	font-weight: 400;
+}
+ul {
+	margin-bottom: 0;
+}
+section {
+	margin: 0 0 2em;
+}
+blockquote {
+	margin: 0;
+	margin-bottom: 1em;
+}
+#resume {
+	margin: 2em 2em 2em 2.5em;
+	max-width: 760px;
+}
+
+/* Resume heading */
+.heading header { 
+
+}
+
+.heading header h1 {
+	font-size: 180%;
+	margin: 0.5em 0;
+	font-weight: 600;
+}
+
+.heading header h2 {
+	font-size: 140%;
+	margin: 0;
+	font-weight: 400;
+}
+
+.heading header .contact .detail {
+	margin: 0 1em 0 0;
+}
+
+.profile {
+	display: inline-block;
+	margin: 0 1em 0 0;
+}
+
+.profile strong,
+.profile span {
+	display: inline-block;
+	margin: 0 1em 0 0;
+}
+/* section / line breaks */
+section h2 {
+	font-size: 140%;
+	margin: 0 0 1em;
+	text-transform: uppercase;
+	color: #BC1B39;
+	font-weight: 400;
+}
+
+/* Experience items */
+.item {
+	margin: 0 0 0em;
+	padding: 0 0 1em;
+	border-bottom: 1px solid #F2EBEC;
+}
+
+.item:last-child {
+	border-bottom: none;
+}
+
+
+.item header h3 {
+	margin: 0.2em 1em 0.2em 0;
+	display: inline-block;
+	font-weight: 600;
+}
+
+.item header a {
+	display: inline-block;
+}
+
+.item .position {
+	font-weight: 600;
+	font-size: 100%;
+	margin: 0.2em 1em 0.2em 0;
+}
+
+.item .startDate,
+.item .endDate {
+	color: #6B6B6B;
+}
+
+.item .highlights {
+	list-style: square;
+	font-size: 90%;
+}
+
+/* skills */
+#skills .item {
+	margin: 0.5em 0;
+	padding: 0 0 0.5em;
+	font-size: 90%;
+}
+
+#skills .item .name {
+	font-weight: 600;
+	display: inline-block;
+	text-transform: uppercase;
+	margin: 0 1em 0 0;
+	width: 23%;
+	vertical-align: top;
+}
+
+#skills .item .keywords {
+	display: inline-block;
+	width: 70%;
+	vertical-align: top;
+}
+
+/* education */
+#education .item {
+	display: inline-block;
+	vertical-align: top;
+	width: 49.5%;
+	border-bottom: 0;
+}
+
+
+
+	</style>
+	<style media="print">
+		body { font-size: 12px; }
+	</style>
+
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300' rel='stylesheet' type='text/css'>
+	
+	</head>
+	<body>
+	
+	<div id="resume">
+
+	<section class="heading">
+		<header>
+			<h1>Gregory W. Petroski</h1>
+			<div class="contact">
+				<span class="detail">
+					<a href="mailto:gpetrosk@gmail.com">gpetrosk@gmail.com</a>
+				</span>
+				<span class="detail">
+					518-368-9738
+				</span>
+			</div>
+		</header>
+
+
+		<p><p>Software engineer with over 10 years of experience using Java and web related technologies. Experience building enterprise web systems using RESTful microservices and event driven architecture. The last several years I have been a hands-on manager but I am interested in moving back to a Lead or Senior Engineer role.</p></p>
+
+
+	</section>
+
+	<section id="skills">
+		<h2>Skills</h2>
+		<div class="item">
+			<div class="name">
+				Languages
+			</div>
+			<div class="keywords">
+					Java,
+					Javascript,
+					Scala,
+					Bash,
+					PHP,
+					Python,
+					Ruby,
+					C#
+			</div>
+		</div>
+		<div class="item">
+			<div class="name">
+				Frameworks
+			</div>
+			<div class="keywords">
+					Spring (Core, Data, Integration, Boot),
+					Jersey,
+					EHCache,
+					Swagger,
+					Hadoop,
+					Spark,
+					Mockito,
+					JUnit,
+					Node.js,
+					Express,
+					Mocha
+			</div>
+		</div>
+		<div class="item">
+			<div class="name">
+				Data
+			</div>
+			<div class="keywords">
+					MongoDB,
+					Redis,
+					MySQL,
+					Oracle SQL,
+					Project Voldemort,
+					Solr,
+					Elasticsearch
+			</div>
+		</div>
+		<div class="item">
+			<div class="name">
+				Middleware
+			</div>
+			<div class="keywords">
+					RabbitMQ,
+					Kafka
+			</div>
+		</div>
+		<div class="item">
+			<div class="name">
+				Build/Deploy Tools
+			</div>
+			<div class="keywords">
+					Git,
+					Maven,
+					Jenkins,
+					npm,
+					AWS,
+					GCP,
+					Chef,
+					Docker,
+					Subversion
+			</div>
+		</div>
+	</section>
+
+	<section class="experience">
+		<h2>Experience</h2>
+		<section class="item">
+			<header>
+					<h3 class="name">eharmony</h3>
+			</header>
+			<span class="position">
+				Senior Engineering Manager (Web and Matching)
+			</span>
+
+			<span class="startDate">
+				Mar 2018
+			</span>
+			<span class="endDate">
+				- Dec 2019
+			</span>
+
+			<div class="summary">
+				<p><p>Hands-on manager of the web and matching teams. Helped bring about process improvements to increase frequency of releases and reduce rollbacks and production bugs.</p></p>
+			</div>
+			<ul class="highlights">
+				<li>Introduced unit testing in front end process and coached team on how to construct and write code that is testable.</li>
+				<li>Simplified release process to include less code changes and to use a more concise branching strategy.</li>
+				<li>Put more ownership of releases on developers to ensure they saw their own code through to production.</li>
+				<li>Wrote Jenkins CI/CD pipelines that built, tagged and deployed code in an automated fashion.</li>
+				<li>Managed team of 10. Time split between managing and coding was about 80/20.</li>
+			</ul>
+		</section>
+		<section class="item">
+			<header>
+					<h3 class="name">eharmony</h3>
+			</header>
+			<span class="position">
+				Engineering Manager (Matching)
+			</span>
+
+			<span class="startDate">
+				May 2017
+			</span>
+			<span class="endDate">
+				- Mar 2018
+			</span>
+
+			<div class="summary">
+				<p><p>Hands-on manager of the matching team. Worked with team to modernize and simplify existing microservice infrastructure.</p></p>
+			</div>
+			<ul class="highlights">
+				<li>Conducted interviews and helped to hire new developers.</li>
+				<li>Lead initiative to modernize our tech stack, upgraded to Java 8 and migrated from Voldemort to Redis.</li>
+				<li>Helped with the migration of some internal systems to GCP cloud.</li>
+				<li>Managed team of 3. Time split between managing and coding was about 60/40.</li>
+			</ul>
+		</section>
+		<section class="item">
+			<header>
+					<h3 class="name">eharmony</h3>
+			</header>
+			<span class="position">
+				Senior Software Engineer (Matching)
+			</span>
+
+			<span class="startDate">
+				Nov 2015
+			</span>
+			<span class="endDate">
+				- May 2017
+			</span>
+
+			<div class="summary">
+				<p><p>Investigated large scale projects and rewrites of the matching architecture. Mentored others on the team.</p></p>
+			</div>
+			<ul class="highlights">
+				<li>Designed and developed an Alexa skill for eharmony in Node.js.</li>
+				<li>Open sourced a Swagger library and repository for aggregating swagger enabled services. https://github.com/eHarmony/eh-swagger-repository</li>
+				<li>Created a proof of concept for replacing our matching caching system with another distributed cache.</li>
+				<li>Created a proof of concept to perform our matching algorithm using batch Spark and Hadoop jobs.</li>
+				<li>Implemented various features to support the matching machine learning and compatibility models.</li>
+			</ul>
+		</section>
+		<section class="item">
+			<header>
+					<h3 class="name">Amazon</h3>
+			</header>
+			<span class="position">
+				Software Development Engineer II
+			</span>
+
+			<span class="startDate">
+				Dec 2014
+			</span>
+			<span class="endDate">
+				- Oct 2015
+			</span>
+
+			<div class="summary">
+				<p><p>Worked as part of the Prime Now team in the transportation department. Helped build out tools used by operations to manage deliveries.</p></p>
+			</div>
+			<ul class="highlights">
+				<li>Created RESTful APIs that aggregated package and driver data to help the operations team manage package deliveries. Created a front end using Knockout JS to map out location data.</li>
+				<li>Built Android application for onboarding new delivery agents. Built a series of custom Android forms and flows for collecting data from users.</li>
+			</ul>
+		</section>
+		<section class="item">
+			<header>
+					<h3 class="name">Dealer.com</h3>
+			</header>
+			<span class="position">
+				Senior Java Developer and Scrum Tech Lead
+			</span>
+
+			<span class="startDate">
+				Jan 2010
+			</span>
+			<span class="endDate">
+				- Nov 2014
+			</span>
+
+			<div class="summary">
+				<p><p>Scrum Technical Lead on an six person Agile development team. Help provide technical support and direction for the team. Built and maintained services that handled upwards of 2 million requests a day.</p></p>
+			</div>
+			<ul class="highlights">
+				<li>Created shopping cart feature used on over 2000 sites using RESTful APIs with Jersey and MongoDB.</li>
+				<li>Created content management system for JDPower and Associates website. Used MongoDB and Oracle Coherence Cache.</li>
+				<li>Migrated off legacy configuration store to MongoDB.</li>
+			</ul>
+		</section>
+	</section>
+
+	
+	<section id="education">
+		<h2>Education</h2>
+		<div class="item">
+			<header>
+					<h3 class="name">Champlain College</h3>
+			</header>
+
+			<div class="dates">
+				<span class="startDate">
+					Sep 2006
+				</span>
+				<span class="endDate">
+					- Dec 2009
+				</span>
+			</div>
+
+			<div class="qualification">
+				<span class="studyType">
+					BS in Software Engineering
+				</span>
+
+				<span class="area">
+					- Burlington, VT
+				</span>
+
+			</div>
+
+		</div>
+		<div class="item">
+			<header>
+					<h3 class="name">SUNY Adirondack</h3>
+			</header>
+
+			<div class="dates">
+				<span class="startDate">
+					Sep 2004
+				</span>
+				<span class="endDate">
+					- May 2006
+				</span>
+			</div>
+
+			<div class="qualification">
+				<span class="studyType">
+					AAS in IT/Networking
+				</span>
+
+				<span class="area">
+					- Glens Falls, NY
+				</span>
+
+			</div>
+
+		</div>
+	</section>
+	
+	
+
+
+	
+	<section id="references">
+		<h2>References</h2>
+		<div class="item">
+			<div class="name">
+				Available upon request
+			</div>
+		</div>
+	</section>
+	
+	</div>
+	
+	</body>
+</html>
